@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a simple load balancer project built with Spring Boot. The load balancer distributes incoming requests across multiple backend servers, implementing two scheduling algorithms: Round Robin and Random Selection. It's designed for robustness and can check the health of backend servers to ensure reliability.
+This project implements a load balancer designed to efficiently distribute incoming requests across multiple backend servers, ensuring high availability and performance. For a detailed understanding of the architecture and design decisions, you can refer to the High-Level Design (HLD) and Low-Level Design (LLD) overview files, which can be found [here](HLD_Overview.md) and [here](LLD_Overview.md), respectively.
 
 ## Features
 
